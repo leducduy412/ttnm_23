@@ -72,6 +72,11 @@ flutter:
     - assets/image/bg_story_1.png
     - assets/image/list.png
     - assets/image/play.png
+    - assets/image/khucho.png
+    - assets/image/coin.png
+    - assets/image/traicay.png
+    - assets/image/quanao.png
+    - assets/image/dotrangsuc.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

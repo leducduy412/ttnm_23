@@ -62,6 +62,218 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
       );
     }
 
+  Widget dongxu() {
+    double fem = 1;
+    double ffem = fem * 0.97;
+    return Container(
+      height: 360,
+      width: 360,
+      child: Container(
+        child: Container(
+          // khuchuLr (504:637)
+          padding: EdgeInsets.fromLTRB(11*fem, 10*fem, 11*fem, 12*fem),
+          decoration: BoxDecoration (
+            color: Color(0xff94c6d6),
+            borderRadius: BorderRadius.circular(20*fem),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                // khuchzt6 (504:636)
+                margin: EdgeInsets.fromLTRB(1*fem, 0*fem, 0*fem, 12*fem),
+                child: Text(
+                  'Đồng xu',
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.openSans(
+                    fontSize: 32*ffem,
+                    fontWeight: FontWeight.w700,
+                    height: 1.3625*ffem/fem,
+                    color: Color(0xffff5722),
+                  ),
+                ),
+              ),
+              Container(
+                // istockphoto1319641059612x6121U (504:635)
+                width: 338*fem,
+                height: 282*fem,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.only (
+                    bottomRight: Radius.circular(20*fem),
+                    bottomLeft: Radius.circular(20*fem),
+                  ),
+                  child: Image.asset(
+                    'assets/image/coin.png',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget traicay() {
+    double fem = 1;
+    double ffem = fem * 0.97;
+    return Container(
+      height: 360,
+      width: 360,
+      child: Container(
+        child: Container(
+          // khuchuLr (504:637)
+          padding: EdgeInsets.fromLTRB(11*fem, 10*fem, 11*fem, 12*fem),
+          decoration: BoxDecoration (
+            color: Color(0xff94c6d6),
+            borderRadius: BorderRadius.circular(20*fem),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                // khuchzt6 (504:636)
+                margin: EdgeInsets.fromLTRB(1*fem, 0*fem, 0*fem, 12*fem),
+                child: Text(
+                  'Trái cây',
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.openSans(
+                    fontSize: 32*ffem,
+                    fontWeight: FontWeight.w700,
+                    height: 1.3625*ffem/fem,
+                    color: Color(0xffff5722),
+                  ),
+                ),
+              ),
+              Container(
+                // istockphoto1319641059612x6121U (504:635)
+                width: 338*fem,
+                height: 282*fem,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.only (
+                    bottomRight: Radius.circular(20*fem),
+                    bottomLeft: Radius.circular(20*fem),
+                  ),
+                  child: Image.asset(
+                    'assets/image/traicay.png',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget quanao() {
+    double fem = 1;
+    double ffem = fem * 0.97;
+    return Container(
+      height: 360,
+      width: 360,
+      child: Container(
+        child: Container(
+          // khuchuLr (504:637)
+          padding: EdgeInsets.fromLTRB(11*fem, 10*fem, 11*fem, 12*fem),
+          decoration: BoxDecoration (
+            color: Color(0xff94c6d6),
+            borderRadius: BorderRadius.circular(20*fem),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                // khuchzt6 (504:636)
+                margin: EdgeInsets.fromLTRB(1*fem, 0*fem, 0*fem, 12*fem),
+                child: Text(
+                  'Quần áo',
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.openSans(
+                    fontSize: 32*ffem,
+                    fontWeight: FontWeight.w700,
+                    height: 1.3625*ffem/fem,
+                    color: Color(0xffff5722),
+                  ),
+                ),
+              ),
+              Container(
+                // istockphoto1319641059612x6121U (504:635)
+                width: 338*fem,
+                height: 282*fem,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.only (
+                    bottomRight: Radius.circular(20*fem),
+                    bottomLeft: Radius.circular(20*fem),
+                  ),
+                  child: Image.asset(
+                    'assets/image/quanao.png',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget dotrangsuc() {
+    double fem = 1;
+    double ffem = fem * 0.97;
+    return Container(
+      height: 360,
+      width: 360,
+      child: Container(
+        child: Container(
+          // khuchuLr (504:637)
+          padding: EdgeInsets.fromLTRB(11*fem, 10*fem, 11*fem, 12*fem),
+          decoration: BoxDecoration (
+            color: Color(0xff94c6d6),
+            borderRadius: BorderRadius.circular(20*fem),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                // khuchzt6 (504:636)
+                margin: EdgeInsets.fromLTRB(1*fem, 0*fem, 0*fem, 12*fem),
+                child: Text(
+                  'Đồ trang sức',
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.openSans(
+                    fontSize: 32*ffem,
+                    fontWeight: FontWeight.w700,
+                    height: 1.3625*ffem/fem,
+                    color: Color(0xffff5722),
+                  ),
+                ),
+              ),
+              Container(
+                // istockphoto1319641059612x6121U (504:635)
+                width: 338*fem,
+                height: 282*fem,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.only (
+                    bottomRight: Radius.circular(20*fem),
+                    bottomLeft: Radius.circular(20*fem),
+                  ),
+                  child: Image.asset(
+                    'assets/image/dotrangsuc.png',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 932;
@@ -164,7 +376,9 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                                 width: 126*fem,
                                 height: 28*fem,
                                 child: TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    showOverlay(context, "do trang suc");
+                                  },
                                   style: TextButton.styleFrom (
                                     padding: EdgeInsets.zero,
                                   ),
@@ -191,7 +405,9 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                                 width: 75*fem,
                                 height: 28*fem,
                                 child: TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    showOverlay(context, "trai cay");
+                                  },
                                   style: TextButton.styleFrom (
                                     padding: EdgeInsets.zero,
                                   ),
@@ -218,7 +434,9 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                                 width: 80*fem,
                                 height: 28*fem,
                                 child: TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    showOverlay(context, "quan ao");
+                                  },
                                   style: TextButton.styleFrom (
                                     padding: EdgeInsets.zero,
                                   ),
@@ -246,7 +464,7 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                                 height: 28*fem,
                                 child: TextButton(
                                   onPressed: () {
-                                    showOverlay(context);
+                                    showOverlay(context, "khu cho");
                                   },
                                   style: TextButton.styleFrom (
                                     padding: EdgeInsets.zero,
@@ -274,7 +492,9 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                                 width: 82*fem,
                                 height: 28*fem,
                                 child: TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    showOverlay(context, "dong xu");
+                                  },
                                   style: TextButton.styleFrom (
                                     padding: EdgeInsets.zero,
                                   ),
@@ -305,7 +525,13 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
     );
   }
 
-  Future<void> showOverlay(BuildContext context) async {
+  Future<void> showOverlay(BuildContext context, String s) async {
+    Widget w = Container();
+    if (s == "khu cho") w = khucho();
+    else if (s == "dong xu") w = dongxu();
+    else if (s == "trai cay") w = traicay();
+    else if (s == "quan ao") w = quanao();
+    else if (s == "do trang suc") w = dotrangsuc();
     OverlayState? overlayState = Overlay.of(context);
     OverlayEntry overlayEntry = OverlayEntry(builder: (context) => Positioned(
       width: 360,
@@ -318,8 +544,8 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
           ),
           child: Material(
             borderRadius: BorderRadius.all(Radius.circular(20)),
-            child:khucho())
-    )));
+            child: w,
+    ))));
     overlayState?.insert(overlayEntry);
     await Future.delayed(Duration(seconds: 5));
     overlayEntry.remove();
