@@ -79,6 +79,8 @@ flutter:
     - assets/image/quanao.png
     - assets/image/dotrangsuc.png
     - assets/voice075.mp3
+    - assets/voice_normal.mp3
+    - assets/voice_slow.mp3
 
   fonts:
     - family: openDyslexic

@@ -16,6 +16,7 @@ class Option extends StatefulWidget {
 class _OptionState extends State<Option> {
   double _speed = 1;
   bool _shouldAnimateText = false;
+  String voice = '';
 
   Widget getPickOption() {
     double baseWidth = 800;
@@ -63,12 +64,14 @@ class _OptionState extends State<Option> {
                       ),
                     ),
                     TextButton(
-                      // icons8playbuttoncircled963uSe (801:677)
                       onPressed: () async {
+                        // String voice = '';
+                        // if (global.speed == 1) {
+                        //   voice = 'voice_normal.mp3';
+                        // }
                         final player = AudioPlayer();
-                        await player.play(AssetSource('voice075.mp3'));
+                        await player.play(AssetSource(voice));
                         var _shouldAnimateText = true;
-                        var _speed = 1.0;
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -139,6 +142,8 @@ class _OptionState extends State<Option> {
                                   global.speed = 1;
                                   global.colorx_125x = global.unchoosen;
                                   global.colorx_15x = global.unchoosen;
+                                  _speed = 3.1;
+                                  voice = 'voice_normal.mp3';
                                 });
                               },
                               child: Text(
@@ -164,6 +169,8 @@ class _OptionState extends State<Option> {
                                   global.speed = 2;
                                   global.colorx_125x = global.choosen;
                                   global.colorx_15x = global.unchoosen;
+                                  _speed = 2.2;
+                                  voice = 'voice075.mp3';
                                 });
                               },
                               child: Text(
@@ -185,6 +192,8 @@ class _OptionState extends State<Option> {
                                 global.speed = 3;
                                 global.colorx_125x = global.unchoosen;
                                 global.colorx_15x = global.choosen;
+                                _speed = 1.3;
+                                voice = 'voice_slow.mp3';
                               });
                             },
                             child: Text(
