@@ -1,3 +1,6 @@
+import 'dart:async';
+
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ttnm/list.dart';
@@ -40,7 +43,7 @@ class _TheGoldenCoinFirstState extends State<TheGoldenCoinFirst>
 
   void _startAnimation() {
     final double duration =
-        (_words.length * 1000 / widget.animationDuration / 2.5).toDouble();
+        (_words.length * 1000 / widget.animationDuration).toDouble();
 
     _controller = AnimationController(
       vsync: this,
