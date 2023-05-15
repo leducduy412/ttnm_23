@@ -13,7 +13,7 @@ class Option extends StatefulWidget {
 }
 
 class _OptionState extends State<Option> {
-  late double _speed;
+  double _speed = 1;
   bool _shouldAnimateText = false;
 
   @override
@@ -151,7 +151,7 @@ class _OptionState extends State<Option> {
                               final player = AudioPlayer();
                               await player.play(AssetSource('voice075.mp3'));
                               _shouldAnimateText = true;
-                              _speed = 2 / 5;
+                              _speed = 1.0;
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(

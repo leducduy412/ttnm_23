@@ -42,7 +42,7 @@ class _TheGoldenCoinFirstState extends State<TheGoldenCoinFirst>
 
   void _startAnimation() {
     final double duration =
-        (_words.length * 1000 / widget.animationDuration).toDouble();
+        (_words.length * 1000 / widget.animationDuration / 2.5).toDouble();
 
     _controller = AnimationController(
       vsync: this,
