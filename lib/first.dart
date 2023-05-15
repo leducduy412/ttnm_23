@@ -74,7 +74,9 @@ class _TheGoldenCoinFirstState extends State<TheGoldenCoinFirst>
         style: TextStyle(
           fontWeight:
               i == _currentWordIndex ? FontWeight.bold : FontWeight.normal,
-          fontSize: 20.0,
+          fontSize: global.font == 1
+              ? (i == _currentWordIndex ? 24 * ffem : 20 * ffem)
+              : (i == _currentWordIndex ? 20 * ffem : 16 * ffem),
         ),
       ));
     }
@@ -187,12 +189,25 @@ class _TheGoldenCoinFirstState extends State<TheGoldenCoinFirst>
                       child: RichText(
                         textAlign: TextAlign.center,
                         text: TextSpan(
-                          style: GoogleFonts.openSans(
-                            fontSize: 20 * ffem,
-                            fontWeight: FontWeight.w400,
-                            height: 1.3625 * ffem / fem,
-                            color: Color(0xff000000),
-                          ),
+                          style: global.font == 1
+                              ? GoogleFonts.openSans(
+                                  fontSize: 20 * ffem,
+                                  //fontWeight: FontWeight.w400,
+                                  height: 1.3625 * ffem / fem,
+                                  color: Color(0xff000000),
+                                )
+                              : TextStyle(
+                                  fontFamily: 'openDyslexic',
+                                  fontSize: 20 * ffem,
+                                  height: 1.3625 * ffem / fem,
+                                  color: Color(0xff000000),
+                                ),
+                          // style: GoogleFonts.openSans(
+                          //   fontSize: 20 * ffem,
+                          //   //fontWeight: FontWeight.w400,
+                          //   height: 1.3625 * ffem / fem,
+                          //   color: Color(0xff000000),
+                          // ),
                           children: spans,
                         ),
                       ),

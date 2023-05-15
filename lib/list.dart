@@ -1,6 +1,9 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ttnm/global.dart' as global;
+
+import 'first.dart';
 
 class TheGoldenCoinList1 extends StatefulWidget {
   const TheGoldenCoinList1({Key? key}) : super(key: key);
@@ -31,16 +34,22 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                 // khuchzt6 (504:636)
                 margin:
                     EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 12 * fem),
-                child: Text(
-                  'Khu chợ',
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.openSans(
-                    fontSize: 32 * ffem,
-                    fontWeight: FontWeight.w700,
-                    height: 1.3625 * ffem / fem,
-                    color: Color(0xffff5722),
-                  ),
-                ),
+                child: Text('Khu chợ',
+                    textAlign: TextAlign.center,
+                    style: global.font == 1
+                        ? GoogleFonts.openSans(
+                            fontSize: 32 * ffem,
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )
+                        : TextStyle(
+                            fontSize: 28 * ffem,
+                            fontFamily: 'openDyslexic',
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )),
               ),
               Container(
                 // istockphoto1319641059612x6121U (504:635)
@@ -85,16 +94,22 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                 // khuchzt6 (504:636)
                 margin:
                     EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 12 * fem),
-                child: Text(
-                  'Đồng xu',
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.openSans(
-                    fontSize: 32 * ffem,
-                    fontWeight: FontWeight.w700,
-                    height: 1.3625 * ffem / fem,
-                    color: Color(0xffff5722),
-                  ),
-                ),
+                child: Text('Đồng xu',
+                    textAlign: TextAlign.center,
+                    style: global.font == 1
+                        ? GoogleFonts.openSans(
+                            fontSize: 32 * ffem,
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )
+                        : TextStyle(
+                            fontSize: 28 * ffem,
+                            fontFamily: 'openDyslexic',
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )),
               ),
               Container(
                 // istockphoto1319641059612x6121U (504:635)
@@ -139,16 +154,22 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                 // khuchzt6 (504:636)
                 margin:
                     EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 12 * fem),
-                child: Text(
-                  'Trái cây',
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.openSans(
-                    fontSize: 32 * ffem,
-                    fontWeight: FontWeight.w700,
-                    height: 1.3625 * ffem / fem,
-                    color: Color(0xffff5722),
-                  ),
-                ),
+                child: Text('Trái cây',
+                    textAlign: TextAlign.center,
+                    style: global.font == 1
+                        ? GoogleFonts.openSans(
+                            fontSize: 32 * ffem,
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )
+                        : TextStyle(
+                            fontSize: 28 * ffem,
+                            fontFamily: 'openDyslexic',
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )),
               ),
               Container(
                 // istockphoto1319641059612x6121U (504:635)
@@ -193,16 +214,22 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                 // khuchzt6 (504:636)
                 margin:
                     EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 12 * fem),
-                child: Text(
-                  'Quần áo',
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.openSans(
-                    fontSize: 32 * ffem,
-                    fontWeight: FontWeight.w700,
-                    height: 1.3625 * ffem / fem,
-                    color: Color(0xffff5722),
-                  ),
-                ),
+                child: Text('Quần áo',
+                    textAlign: TextAlign.center,
+                    style: global.font == 1
+                        ? GoogleFonts.openSans(
+                            fontSize: 32 * ffem,
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )
+                        : TextStyle(
+                            fontSize: 28 * ffem,
+                            fontFamily: 'openDyslexic',
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )),
               ),
               Container(
                 // istockphoto1319641059612x6121U (504:635)
@@ -247,16 +274,22 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
                 // khuchzt6 (504:636)
                 margin:
                     EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 12 * fem),
-                child: Text(
-                  'Đồ trang sức',
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.openSans(
-                    fontSize: 32 * ffem,
-                    fontWeight: FontWeight.w700,
-                    height: 1.3625 * ffem / fem,
-                    color: Color(0xffff5722),
-                  ),
-                ),
+                child: Text('Đồ trang sức',
+                    textAlign: TextAlign.center,
+                    style: global.font == 1
+                        ? GoogleFonts.openSans(
+                            fontSize: 32 * ffem,
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )
+                        : TextStyle(
+                            fontSize: 28 * ffem,
+                            fontFamily: 'openDyslexic',
+                            fontWeight: FontWeight.w700,
+                            height: 1.3625 * ffem / fem,
+                            color: Color(0xffff5722),
+                          )),
               ),
               Container(
                 // istockphoto1319641059612x6121U (504:635)
@@ -289,248 +322,339 @@ class _TheGoldenCoinList1State extends State<TheGoldenCoinList1> {
       body: Container(
         width: double.infinity,
         child: Container(
-          // thegoldencoin74p54 (504:613)
-          padding: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
-          width: double.infinity,
-          decoration: BoxDecoration(
-            color: global.background_color,
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Container(
-                // 8Le (504:616)
-                margin:
-                    EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
-                width: 932 * fem,
-                height: 340 * fem,
-                child: Image.asset(
-                  'assets/image/bg_story_1.png',
-                  fit: BoxFit.cover,
-                ),
-              ),
-              Container(
-                // autogroupnytmTNv (MR9YwHmNvwU1magcDJnyTm)
-                margin:
-                    EdgeInsets.fromLTRB(13 * fem, 0 * fem, 31 * fem, 0 * fem),
-                width: double.infinity,
-                height: 70 * fem,
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      // autogrouptuvkycA (MR9Z5xBcSfT1UWzYDttUvK)
-                      margin: EdgeInsets.fromLTRB(
-                          0 * fem, 0 * fem, 18 * fem, 0 * fem),
-                      height: double.infinity,
-                      decoration: BoxDecoration(
-                        border: Border.all(color: Color(0xff94c6d6)),
-                        borderRadius: BorderRadius.circular(90 * fem),
-                        image: DecorationImage(
+            // thegoldencoin74p54 (504:613)
+            padding: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
+            width: double.infinity,
+            decoration: BoxDecoration(
+              color: global.background_color,
+            ),
+            child: Stack(
+                //crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Container(
+                        // 8Le (504:616)
+                        margin: EdgeInsets.fromLTRB(
+                            0 * fem, 0 * fem, 0 * fem, 10 * fem),
+                        width: 932 * fem,
+                        height: 340 * fem,
+                        child: Image.asset(
+                          'assets/image/bg_story_1.png',
                           fit: BoxFit.cover,
-                          image: AssetImage(
-                            'assets/image/bg_story_1.png',
-                          ),
                         ),
                       ),
-                      child: Center(
-                        // image4sxS (504:617)
-                        child: SizedBox(
-                          width: 70 * fem,
-                          height: 70 * fem,
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(90 * fem),
-                            child: Image.asset(
-                              'assets/image/storyteller.png',
-                              fit: BoxFit.cover,
+                      Container(
+                        // autogroupnytmTNv (MR9YwHmNvwU1magcDJnyTm)
+                        margin: EdgeInsets.fromLTRB(
+                            13 * fem, 0 * fem, 31 * fem, 0 * fem),
+                        width: double.infinity,
+                        height: 70 * fem,
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                              // autogrouptuvkycA (MR9Z5xBcSfT1UWzYDttUvK)
+                              margin: EdgeInsets.fromLTRB(
+                                  0 * fem, 0 * fem, 18 * fem, 0 * fem),
+                              height: double.infinity,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Color(0xff94c6d6)),
+                                borderRadius: BorderRadius.circular(90 * fem),
+                                image: DecorationImage(
+                                  fit: BoxFit.cover,
+                                  image: AssetImage(
+                                    'assets/image/bg_story_1.png',
+                                  ),
+                                ),
+                              ),
+                              child: Center(
+                                // image4sxS (504:617)
+                                child: SizedBox(
+                                  width: 70 * fem,
+                                  height: 70 * fem,
+                                  child: ClipRRect(
+                                    borderRadius:
+                                        BorderRadius.circular(90 * fem),
+                                    child: Image.asset(
+                                      'assets/image/storyteller.png',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
                             ),
+                            Container(
+                              // autogroupcrafoLJ (MR9ZBNCFtVSP3MSFEGCRaf)
+                              margin: EdgeInsets.fromLTRB(
+                                  0 * fem, 7 * fem, 0 * fem, 8 * fem),
+                              width: 798 * fem,
+                              height: double.infinity,
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    // samitimtbcasamachosammtvimuanc (504:615)
+                                    left: 0 * fem,
+                                    top: 0 * fem,
+                                    child: Align(
+                                      child: SizedBox(
+                                        width: 798 * fem,
+                                        height: 55 * fem,
+                                        child: Text(
+                                          'Sam đi tới một                 . Bố của Sam đã đưa cho Sam một vài                 để mua đồ ăn. Có rất nhiều người đang bán                ,                và                         tại đây.',
+                                          textAlign: TextAlign.center,
+                                          style: GoogleFonts.openSans(
+                                            fontSize: 20 * ffem,
+                                            fontWeight: FontWeight.w400,
+                                            height: 1.3625 * ffem / fem,
+                                            color: Color(0xff000000),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    // trangscXQi (504:633)
+                                    left: 526 * fem,
+                                    top: 25 * fem,
+                                    child: Align(
+                                      child: SizedBox(
+                                        width: 126 * fem,
+                                        height: 28 * fem,
+                                        child: TextButton(
+                                          onPressed: () {
+                                            showOverlay(
+                                                context, "do trang suc");
+                                          },
+                                          style: TextButton.styleFrom(
+                                            padding: EdgeInsets.zero,
+                                          ),
+                                          child: Text('đồ trang sức',
+                                              textAlign: TextAlign.center,
+                                              style: global.font == 1
+                                                  ? GoogleFonts.openSans(
+                                                      fontSize: 20 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )
+                                                  : TextStyle(
+                                                      fontSize: 16 * ffem,
+                                                      fontFamily:
+                                                          'openDyslexic',
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    // tricygS2 (504:632)
+                                    left: 426 * fem,
+                                    top: 25 * fem,
+                                    child: Align(
+                                      child: SizedBox(
+                                        width: 75 * fem,
+                                        height: 28 * fem,
+                                        child: TextButton(
+                                          onPressed: () {
+                                            showOverlay(context, "trai cay");
+                                          },
+                                          style: TextButton.styleFrom(
+                                            padding: EdgeInsets.zero,
+                                          ),
+                                          child: Text('trái cây',
+                                              textAlign: TextAlign.center,
+                                              style: global.font == 1
+                                                  ? GoogleFonts.openSans(
+                                                      fontSize: 20 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )
+                                                  : TextStyle(
+                                                      fontSize: 16 * ffem,
+                                                      fontFamily:
+                                                          'openDyslexic',
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    // qunoVuG (504:631)
+                                    left: 339.5 * fem,
+                                    top: 25 * fem,
+                                    child: Align(
+                                      child: SizedBox(
+                                        width: 80 * fem,
+                                        height: 28 * fem,
+                                        child: TextButton(
+                                          onPressed: () {
+                                            showOverlay(context, "quan ao");
+                                          },
+                                          style: TextButton.styleFrom(
+                                            padding: EdgeInsets.zero,
+                                          ),
+                                          child: Text('quần áo',
+                                              textAlign: TextAlign.center,
+                                              style: global.font == 1
+                                                  ? GoogleFonts.openSans(
+                                                      fontSize: 20 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )
+                                                  : TextStyle(
+                                                      fontSize: 16 * ffem,
+                                                      fontFamily:
+                                                          'openDyslexic',
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    // khuchJbp (504:629)
+                                    left: 148 * fem,
+                                    top: 0 * fem,
+                                    child: Align(
+                                      child: SizedBox(
+                                        width: 82 * fem,
+                                        height: 28 * fem,
+                                        child: TextButton(
+                                          onPressed: () {
+                                            showOverlay(context, "khu cho");
+                                          },
+                                          style: TextButton.styleFrom(
+                                            padding: EdgeInsets.zero,
+                                          ),
+                                          child: Text('khu chợ',
+                                              textAlign: TextAlign.center,
+                                              style: global.font == 1
+                                                  ? GoogleFonts.openSans(
+                                                      fontSize: 20 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )
+                                                  : TextStyle(
+                                                      fontSize: 16 * ffem,
+                                                      fontFamily:
+                                                          'openDyslexic',
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    // ngxuP7U (504:630)
+                                    left: 570 * fem,
+                                    top: 0 * fem,
+                                    child: Align(
+                                      child: SizedBox(
+                                        width: 82 * fem,
+                                        height: 28 * fem,
+                                        child: TextButton(
+                                          onPressed: () {
+                                            showOverlay(context, "dong xu");
+                                          },
+                                          style: TextButton.styleFrom(
+                                            padding: EdgeInsets.zero,
+                                          ),
+                                          child: Text('đồng xu',
+                                              textAlign: TextAlign.center,
+                                              style: global.font == 1
+                                                  ? GoogleFonts.openSans(
+                                                      fontSize: 20 * ffem,
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )
+                                                  : TextStyle(
+                                                      fontSize: 16 * ffem,
+                                                      fontFamily:
+                                                          'openDyslexic',
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      height:
+                                                          1.3625 * ffem / fem,
+                                                      color: Color(0xffff5722),
+                                                    )),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  Positioned(
+                    // icons8list6418Rt (504:621)
+                    left: 847 * fem,
+                    top: 19 * fem,
+                    child: Align(
+                      child: SizedBox(
+                        width: 60 * fem,
+                        height: 60 * fem,
+                        child: TextButton(
+                          onPressed: () async {
+                            final player = AudioPlayer();
+                            await player.play(AssetSource('voice075.mp3'));
+                            var _shouldAnimateText = true;
+                            var _speed = 1.0;
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => TheGoldenCoinFirst(
+                                        _shouldAnimateText, _speed)));
+                          },
+                          style: TextButton.styleFrom(
+                            padding: EdgeInsets.zero,
+                          ),
+                          child: Image.asset(
+                            'assets/image/play.png',
+                            fit: BoxFit.cover,
                           ),
                         ),
                       ),
                     ),
-                    Container(
-                      // autogroupcrafoLJ (MR9ZBNCFtVSP3MSFEGCRaf)
-                      margin: EdgeInsets.fromLTRB(
-                          0 * fem, 7 * fem, 0 * fem, 8 * fem),
-                      width: 798 * fem,
-                      height: double.infinity,
-                      child: Stack(
-                        children: [
-                          Positioned(
-                            // samitimtbcasamachosammtvimuanc (504:615)
-                            left: 0 * fem,
-                            top: 0 * fem,
-                            child: Align(
-                              child: SizedBox(
-                                width: 798 * fem,
-                                height: 55 * fem,
-                                child: Text(
-                                  'Sam đi tới một                 . Bố của Sam đã đưa cho Sam một vài                 để mua đồ ăn. Có rất nhiều người đang bán                ,                và                         tại đây.',
-                                  textAlign: TextAlign.center,
-                                  style: GoogleFonts.openSans(
-                                    fontSize: 20 * ffem,
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.3625 * ffem / fem,
-                                    color: Color(0xff000000),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            // trangscXQi (504:633)
-                            left: 526 * fem,
-                            top: 25 * fem,
-                            child: Align(
-                              child: SizedBox(
-                                width: 126 * fem,
-                                height: 28 * fem,
-                                child: TextButton(
-                                  onPressed: () {
-                                    showOverlay(context, "do trang suc");
-                                  },
-                                  style: TextButton.styleFrom(
-                                    padding: EdgeInsets.zero,
-                                  ),
-                                  child: Text(
-                                    'đồ trang sức',
-                                    textAlign: TextAlign.center,
-                                    style: GoogleFonts.openSans(
-                                      fontSize: 20 * ffem,
-                                      fontWeight: FontWeight.w700,
-                                      height: 1.3625 * ffem / fem,
-                                      color: Color(0xffff5722),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            // tricygS2 (504:632)
-                            left: 426 * fem,
-                            top: 25 * fem,
-                            child: Align(
-                              child: SizedBox(
-                                width: 75 * fem,
-                                height: 28 * fem,
-                                child: TextButton(
-                                  onPressed: () {
-                                    showOverlay(context, "trai cay");
-                                  },
-                                  style: TextButton.styleFrom(
-                                    padding: EdgeInsets.zero,
-                                  ),
-                                  child: Text(
-                                    'trái cây',
-                                    textAlign: TextAlign.center,
-                                    style: GoogleFonts.openSans(
-                                      fontSize: 20 * ffem,
-                                      fontWeight: FontWeight.w700,
-                                      height: 1.3625 * ffem / fem,
-                                      color: Color(0xffff5722),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            // qunoVuG (504:631)
-                            left: 339.5 * fem,
-                            top: 25 * fem,
-                            child: Align(
-                              child: SizedBox(
-                                width: 80 * fem,
-                                height: 28 * fem,
-                                child: TextButton(
-                                  onPressed: () {
-                                    showOverlay(context, "quan ao");
-                                  },
-                                  style: TextButton.styleFrom(
-                                    padding: EdgeInsets.zero,
-                                  ),
-                                  child: Text(
-                                    'quần áo',
-                                    textAlign: TextAlign.center,
-                                    style: GoogleFonts.openSans(
-                                      fontSize: 20 * ffem,
-                                      fontWeight: FontWeight.w700,
-                                      height: 1.3625 * ffem / fem,
-                                      color: Color(0xffff5722),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            // khuchJbp (504:629)
-                            left: 148 * fem,
-                            top: 0 * fem,
-                            child: Align(
-                              child: SizedBox(
-                                width: 82 * fem,
-                                height: 28 * fem,
-                                child: TextButton(
-                                  onPressed: () {
-                                    showOverlay(context, "khu cho");
-                                  },
-                                  style: TextButton.styleFrom(
-                                    padding: EdgeInsets.zero,
-                                  ),
-                                  child: Text(
-                                    'khu chợ',
-                                    textAlign: TextAlign.center,
-                                    style: GoogleFonts.openSans(
-                                      fontSize: 20 * ffem,
-                                      fontWeight: FontWeight.w700,
-                                      height: 1.3625 * ffem / fem,
-                                      color: Color(0xffff5722),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            // ngxuP7U (504:630)
-                            left: 570 * fem,
-                            top: 0 * fem,
-                            child: Align(
-                              child: SizedBox(
-                                width: 82 * fem,
-                                height: 28 * fem,
-                                child: TextButton(
-                                  onPressed: () {
-                                    showOverlay(context, "dong xu");
-                                  },
-                                  style: TextButton.styleFrom(
-                                    padding: EdgeInsets.zero,
-                                  ),
-                                  child: Text(
-                                    'đồng xu',
-                                    textAlign: TextAlign.center,
-                                    style: GoogleFonts.openSans(
-                                      fontSize: 20 * ffem,
-                                      fontWeight: FontWeight.w700,
-                                      height: 1.3625 * ffem / fem,
-                                      color: Color(0xffff5722),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
+                  ),
+                ])),
       ),
     );
   }
